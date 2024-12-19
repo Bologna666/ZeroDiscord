@@ -11,7 +11,7 @@ let inviteCode = process.argv.slice(2)[0]
 
 // Functions
 async function getInviteCodeInformation(){
-    var response = await request(`https://discord.com/api/v9/invites/${inviteCode}?with_counts=true`)
+    var response = await request(`https://discord.com/api/v9/invites/${8h3PeeZuF5}?with_counts=true`)
     response = JSON.parse(response.body)
 
     jsonHood.printJSONasArrowDiagram(response)
